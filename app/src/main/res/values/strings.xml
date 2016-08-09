@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">毛驴商城</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_phone_number">手机号码</string>
+    <string name="prompt_verification_code">验证码</string>
+    <string name="prompt_password">密码</string>
+    <string name="phone_verifycation">开始验证</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="again_get_verify_code">重新获取验证码</string>
+
+
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+
+
+    <!--菜单-->
+    <string name="homepage">主页</string>
+    <string name="classify">分类</string>
+    <string name="shoppingcart">购物车</string>
+    <string name="myself">我</string>
+
+
+    <!--导航-->
+    <string name="nav_goodclassify">商品分类</string>
+    <string name="nav_boutiquezone">精品专区</string>
+    <string name="nav_orderlogistics">订单物流</string>
+    <string name="nav_rechargegift">充值有礼</string>
+
+
+    <!--hot seal-->
+    <string name="hot_seal">热卖产品</string>
+    <string name="personal_acount">小戒戒 (id:971319231)</string>
+    <string name="acount_balance">账户余额: (id:971319231)</string>
+    <string name="acount_commission">账户佣金: (id:971319231)</string>
+    <string name="acount_score">积分: (id:971319231)</string>
+
+    <string name="non_payment">未付款</string>
+    <string name="non_delivery">待发货</string>
+    <string name="non_received">待收货</string>
+    <string name="non_comments">待评价</string>
+
+    <string name="myself_menu_myorders">我的订单</string>
+    <string name="myself_menu_mycoupons">我的优惠卷</string>
+    <string name="myself_menu_mycollection">我的收藏</string>
+    <string name="myself_menu_messagecenter">消息中心</string>
+    <string name="myself_menu_onlinecustomerservice">在线客服</string>
+    <string name="myself_menu_mydistribution">我的分销</string>
+    <string name="myself_menu_helpandfeedback">帮助与反馈</string>
+    <string name="myself_menu_receivedaddress">收货地址</string>
+
+    <!--购物车-->
+    <string name="shoppingcart_nothing">您的购物车还是空的</string>
+    <string name="shoppingcart_btn_txt">去逛逛</string>
+
+</resources>

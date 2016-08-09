@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#80BB41</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="titleBack">#7CCD7C</color>
+    <color name="normal">#ffffff</color>
+    <color name="colorMenu">#DCDCDC</color>
+
+
+    <color name="menuTxtNotSelector">#33475f</color>
+    <color name="menuTxtSelector">#ea8010</color>
+
+    <color name="fragmentTitle">#80BB41</color>
+
+    <!--nav-->
+    <color name="nav_backgroound">#d9cdd9</color>
+    <color name="nav_goodclassify">#80BB41</color>
+    <color name="nav_boutiquezone">#229c8f</color>
+    <color name="nav_orderlogistics">#734dba</color>
+    <color name="nav_rechargegift">#e54438</color>
+
+    <!--hot seal-->
+    <color name="hot_seal">#EEEEF0</color>
+    <color name="hot_seal_prices">#eb4f38</color>
+    <color name="hot_seal_txt">#000000</color>
+
+
+
+    <!--myself-->
+    <color name="myself_personal_background">#d7d7d8</color>
+    <color name="myself_view_background">#b3b2b3</color>
+    <color name="myself_menu_line">#b3b2b3</color>
+    <color name="myself_menu_text_color">#b3b2b3</color>
+    
+    <!--shoppingcart-->
+    <color name="shoppingcart_nothing_btn_background">#27a526</color>
+</resources>

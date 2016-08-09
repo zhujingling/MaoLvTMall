@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <!--图片-->
+    <ImageView
+        android:id="@+id/iv_hotsealgood"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/hot_seal_listview_height"
+        android:layout_weight="1"
+        android:src="@drawable/raw_1461058492" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/hot_seal_listview_height"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1">
+        <!--说明-->
+        <TextView
+            android:id="@+id/introductions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/hot_seal_bottom"
+            android:layout_marginTop="10dp"
+            android:text="[掌柜推荐] 越南青芒5斤装(5-8个)"
+            android:textColor="@color/hot_seal_txt"
+            android:textSize="@dimen/hot_seal_introductions" />
+
+        <!--规格-->
+        <TextView
+            android:id="@+id/specifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/introductions"
+            android:layout_marginBottom="@dimen/hot_seal_bottom"
+            android:text="规格5斤装(5-8个)"
+            android:textColor="@color/hot_seal_txt"
+            android:textSize="@dimen/hot_seal_specifications" />
+
+
+        <TextView
+            android:id="@+id/fresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/specifications"
+            android:layout_marginBottom="@dimen/hot_seal_bottom"
+            android:text="新鲜上市"
+            android:textSize="@dimen/hot_seal_prices" />
+
+        <!--价格-->
+        <TextView
+            android:id="@+id/prices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fresh"
+            android:text="¥ 69.90"
+            android:textColor="@color/hot_seal_prices"
+            android:textSize="@dimen/hot_seal_prices" />
+
+        <com.maolv.tmall.view.circleImageView.CircleImageView
+            android:id="@+id/join_shoppingcart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/prices"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/prices"
+            android:src="@drawable/hot_seal_shoppingcart"
+            myapp:backGroundColor="@color/hot_seal_prices" />
+    </RelativeLayout>
+
+</LinearLayout>
